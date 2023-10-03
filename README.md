@@ -6,6 +6,8 @@
 
 ![](./images/Licencia_CC_peque.png) Licencia CC by @javacasm José Antonio Vacas
 
+## [https://bit.ly/roboticaGranada3](https://bit.ly/roboticaGranada3)
+
 ## Descripción
 
 Con el presente curso se pretende continuar el camino emprendido en los cursos anteriores para elaborar y trabajar proyectos avanzados con la plataforma micro:bit
