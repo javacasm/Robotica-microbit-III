@@ -134,3 +134,14 @@ En el robot enviaremos el dato de temperatura cada 10 segundos e invertiremos el
 
 [Programa robot v2](https://makecode.microbit.org/S11895-92138-67941-14484)
 
+## Ejercicio propuesto 4: Sonido intermitente al ir hacia atrás
+
+Vamos a hacer que cuando el robot vaya hacia atrás emita un sonido intermitente.
+
+Una variable "marcha atras" hará que se active el sonido al ejecutar la función "atrás"
+
+Para conseguir la intermitencia vamos a usar un bucle temporizador que comprobará si la variable "marcha atras" es mayor que 0 y que hará sonido si el valor de la variable es par, incrementando el valor de la variable
+
+![](./images/programa_sonido_intermitente_atras.png)
+
+[Proyecto robot 2.5 (con sonido intermitente en marcha atrás)](https://makecode.microbit.org/S68933-61665-18651-64398)
