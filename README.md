@@ -1,12 +1,8 @@
-# Robotica III ([241811GE052](https://www.juntadeandalucia.es/educacion/secretariavirtual/consultaCEP/actividad/241811GE052/))
-
-## CEP Granada
+# Robotica III 
 
 ## Octubre 2023
 
 ![](./images/Licencia_CC_peque.png) Licencia CC by @javacasm José Antonio Vacas
-
-## [https://bit.ly/roboticaGranada3](https://bit.ly/roboticaGranada3)
 
 ## Descripción
 
@@ -40,11 +36,6 @@ Usaremos los siguiente componentes
     * Sistema de riego con control remoto
     * Control remoto de robot sensorizado
     * Sistema domótico con alarma
-
-## Sesiones
-
-4 sesiones de 2.5 horas con exposición final + 2 horas trabajo personal
-Octubre 3, 10, 17, 24 16:30 - 19:00
 
 
 ## Requisitos
