@@ -1,4 +1,4 @@
-# Robotica III 
+# Robotica III 
 
 ## Octubre 2023
 
