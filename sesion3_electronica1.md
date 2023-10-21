@@ -21,7 +21,22 @@
 10. Conector para micro:bit
 
 
+
+## Componentes y conexiones maqueen
+
+Podemos usar los conectores que incluye maqueen para añadir componentes como servos u otros sensores.
+
+Si conectamos un servo a los pines S1 o S2 lo controlaremos con la extensión de maqueen
+
+Vamos a hacer un sencillo programa donde indicaremos visualmente con un servo si tenemos algún obstáculo cerca, usando un servo para mover el indicador
+
+![](./images/programa_indicador_visual_distancia.png)
+
+[Programa](https://makecode.microbit.org/S99517-55263-89648-23199)
+
 ## Pinout
+
+Veamos las conexiones de la micro:bit
 
 v2
 
@@ -31,14 +46,19 @@ v1
 
 ![Pinout](./images/edge_connector.svg)
 
+Todos los pines azules son programables y funcionan como entrada/salida digitales. 
+
+Algunos de ellos son capaces además de actuar como entradas digitales
+
+Y otros están preparados para que conectemos otros dispositivos usando comunicaciones I2C o SPI.
+
 [Detalles](https://tech.microbit.org/hardware/edgeconnector/)
 
 Es openSource [Esquema electrónico](https://tech.microbit.org/hardware/schematic/)
 
-## Componentes y conexiones maqueen
-
-
 ## Extensor
+
+Es una placa que conectamos a la micro:bit y nos facilita la conexión de otros dispositivos electrónicos.
 
 Tipos y variedades:
 
@@ -46,45 +66,57 @@ Tipos y variedades:
 
 ![](./images/KS0434-000-650x350)
 
-Existen kits con todo tipo de componentes, como [los de MonkMakes](https://monkmakes.com/products.html)
+Existen kits con este tipo de conexión y con todo tipo de componentes, como [los de MonkMakes](https://monkmakes.com/products.html)
 
 ![](./images/fan_project_web.jpeg)
 
-para cables
+ * Para los típicos cables con conectores Dupont
 
 ![](./images/sensorbit-extensor-io-para-microbit.jpeg)
 
-para protoboard
+* para facilitar la conexión de la micro:bit con una protoboard
 
 ![](./images/placa-extension-tipo-t-protoboard-gpio-para-microbit-con-salida-de-5v-y-33-v.webp)
 
-con motores
+* Para controlar motores
 
+![](./images/DFR0548_driver_motor.jpeg)
 
 [Extensor Keyestudio KS0360 Sensor shield v2](https://wiki.keyestudio.com/Ks0360_Keyestudio_Sensor_Shield_V2_for_BBC_micro:bit)
+
+Será el extensor con el que trabajaremos
 
 ![](./images/KS0360_400px.jpeg)
 
 [Más detalle](./images/KS0360_1500px.jpeg)
 
+La mayoría de estas placas incluyen un esquema de conexión formado por grupos de 3 patillas:
 
+* Rojo: alimentación/positivo/Vcc
+* Negro: GND/negativo/masa
+* Amarillo: señal que controla o lee el dispositivo que conectamos 
 
 ### Alimentación
 
-USB o power
+La micro:bit no es capaz de alimentar nuestros proyectos, con lo que debemos de alimentar el extensor.
+Podemos elegir entre alimentarlo con su USB o con el conector de alimentación entre 7V y 9V
+
+El extensor tiene 2 zonas de alimentación V1 correspondiente a los conectores del lado izquierdo y V2 en el lado derecho
+
+Los jumper de la zona de abajo a la derecha permiten seleccionar si alimentamos los conectores de cada zona con 3.3V o con 5V, según las necesidades.
 
 ## LCD
 
-Añadimos la extensión 
+Añadimos la extensión LCD1602I2C que nos permitirá mostrar datos con falicidad
 
-Primero hay que inicializar la p
+Primero hay que inicializar la pantalla indicando la dirección (address) de nuestra placa, 39 (o 0x27 en hexadecimal).
 
 ![](./images/programa_temp_luz_lcd.png)
 
 
-### Extensión makerkit
+### Extensión makerkit
 
-Crear caracter de usuario
+Esta extensión nos permite crear caracteres de usuario
 
 ![](./images/programa_makerkit_crear_caracter.png)
 
