@@ -1,4 +1,4 @@
-# Sesión 3 - microbit + electrónica
+# Sesión 3 - microbit + electrónica
 
 ## Maqueen a fondo
 
