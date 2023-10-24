@@ -107,6 +107,16 @@ Los jumper de la zona de abajo a la derecha permiten seleccionar si alimentamos 
 
 ## LCD
 
+Vamos a usar una pantalla LCD que conectamos a la micro:bit a través del extensor.
+
+![](./images/lcd_microbit.jpeg)
+
+Este LCD usa conexión I2C que sólo requiere de 4 cables: Vcc, GND, SDA y SCL.
+
+![](./images/lcd_conexion.jpeg)
+
+Uniremos los cables correspondientes, podemos ver los nombres de los pines en la parte de abajo del extensonr y en el LCD. Tenemos que asegurarnos de que la alimentación de V2 es de 5V para lo que comprobaremos los jumpers de alimentación.
+
 Añadimos la extensión LCD1602I2C que nos permitirá mostrar datos con falicidad
 
 Primero hay que inicializar la pantalla indicando la dirección (address) de nuestra placa, 39 (o 0x27 en hexadecimal).
