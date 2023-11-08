@@ -145,3 +145,14 @@ Para conseguir la intermitencia vamos a usar un bucle temporizador que comprobar
 ![](./images/programa_sonido_intermitente_atras.png)
 
 [Proyecto robot 2.5 (con sonido intermitente en marcha atrás)](https://makecode.microbit.org/S68933-61665-18651-64398)
+
+## Mejoras controlador
+
+* Usar los leds RGB para identificar a los robots
+* Añadir una variable "Desviación" entre 0.8 y 1.2 que nos dice cómo deben ser las velocidades izda y drcha para que vaya recto. 
+
+
+## Prácticas
+
+* Hacemos un test de ajuste para comprobar que el movimiento hacia adelante y atrás sea recto.
+* Dibujamos un circuito con cajas o cinta aislante en el suelo
